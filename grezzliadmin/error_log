@@ -1,0 +1,67 @@
+[11-Apr-2016 23:23:38 Etc/GMT] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'localhost' (using password: YES) in /home/grezzejn/public_html/grezzliadmin/dbconfig.php on line 6
+[11-Apr-2016 23:23:42 Etc/GMT] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'localhost' (using password: YES) in /home/grezzejn/public_html/grezzliadmin/dbconfig.php on line 6
+[11-Apr-2016 23:23:42 Etc/GMT] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, boolean given in /home/grezzejn/public_html/grezzliadmin/index.php on line 7
+[11-Apr-2016 23:23:42 Etc/GMT] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, boolean given in /home/grezzejn/public_html/grezzliadmin/index.php on line 8
+[11-Apr-2016 23:23:42 Etc/GMT] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/grezzejn/public_html/grezzliadmin/index.php on line 11
+[11-Apr-2016 23:23:42 Etc/GMT] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/grezzejn/public_html/grezzliadmin/index.php on line 12
+[11-Apr-2016 23:23:42 Etc/GMT] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/grezzejn/public_html/grezzliadmin/index.php on line 13
+[11-Apr-2016 23:23:44 Etc/GMT] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'localhost' (using password: YES) in /home/grezzejn/public_html/grezzliadmin/dbconfig.php on line 6
+[11-Apr-2016 23:23:44 Etc/GMT] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, boolean given in /home/grezzejn/public_html/grezzliadmin/index.php on line 7
+[11-Apr-2016 23:23:44 Etc/GMT] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, boolean given in /home/grezzejn/public_html/grezzliadmin/index.php on line 8
+[11-Apr-2016 23:23:44 Etc/GMT] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/grezzejn/public_html/grezzliadmin/index.php on line 11
+[11-Apr-2016 23:23:44 Etc/GMT] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/grezzejn/public_html/grezzliadmin/index.php on line 12
+[11-Apr-2016 23:23:44 Etc/GMT] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/grezzejn/public_html/grezzliadmin/index.php on line 13
+[11-Apr-2016 23:24:05 Etc/GMT] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'localhost' (using password: YES) in /home/grezzejn/public_html/grezzliadmin/dbconfig.php on line 6
+[11-Apr-2016 23:24:08 Etc/GMT] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'localhost' (using password: YES) in /home/grezzejn/public_html/grezzliadmin/dbconfig.php on line 6
+[11-Apr-2016 23:24:08 Etc/GMT] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, boolean given in /home/grezzejn/public_html/grezzliadmin/registration.php on line 6
+[11-Apr-2016 23:24:08 Etc/GMT] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, boolean given in /home/grezzejn/public_html/grezzliadmin/registration.php on line 7
+[11-Apr-2016 23:24:08 Etc/GMT] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/grezzejn/public_html/grezzliadmin/registration.php on line 10
+[11-Apr-2016 23:24:46 Etc/GMT] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'localhost' (using password: YES) in /home/grezzejn/public_html/grezzliadmin/dbconfig.php on line 6
+[11-Apr-2016 23:24:48 Etc/GMT] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'localhost' (using password: YES) in /home/grezzejn/public_html/grezzliadmin/dbconfig.php on line 6
+[11-Apr-2016 23:24:48 Etc/GMT] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, boolean given in /home/grezzejn/public_html/grezzliadmin/index.php on line 7
+[11-Apr-2016 23:24:48 Etc/GMT] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, boolean given in /home/grezzejn/public_html/grezzliadmin/index.php on line 8
+[11-Apr-2016 23:24:48 Etc/GMT] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/grezzejn/public_html/grezzliadmin/index.php on line 11
+[11-Apr-2016 23:24:48 Etc/GMT] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/grezzejn/public_html/grezzliadmin/index.php on line 12
+[11-Apr-2016 23:24:48 Etc/GMT] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/grezzejn/public_html/grezzliadmin/index.php on line 13
+[11-Apr-2016 23:24:50 Etc/GMT] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'localhost' (using password: YES) in /home/grezzejn/public_html/grezzliadmin/dbconfig.php on line 6
+[11-Apr-2016 23:24:50 Etc/GMT] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, boolean given in /home/grezzejn/public_html/grezzliadmin/index.php on line 7
+[11-Apr-2016 23:24:50 Etc/GMT] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, boolean given in /home/grezzejn/public_html/grezzliadmin/index.php on line 8
+[11-Apr-2016 23:24:50 Etc/GMT] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/grezzejn/public_html/grezzliadmin/index.php on line 11
+[11-Apr-2016 23:24:50 Etc/GMT] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/grezzejn/public_html/grezzliadmin/index.php on line 12
+[11-Apr-2016 23:24:50 Etc/GMT] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/grezzejn/public_html/grezzliadmin/index.php on line 13
+[11-Apr-2016 23:24:51 Etc/GMT] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'localhost' (using password: YES) in /home/grezzejn/public_html/grezzliadmin/dbconfig.php on line 6
+[11-Apr-2016 23:24:51 Etc/GMT] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, boolean given in /home/grezzejn/public_html/grezzliadmin/index.php on line 7
+[11-Apr-2016 23:24:51 Etc/GMT] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, boolean given in /home/grezzejn/public_html/grezzliadmin/index.php on line 8
+[11-Apr-2016 23:24:51 Etc/GMT] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/grezzejn/public_html/grezzliadmin/index.php on line 11
+[11-Apr-2016 23:24:51 Etc/GMT] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/grezzejn/public_html/grezzliadmin/index.php on line 12
+[11-Apr-2016 23:24:51 Etc/GMT] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/grezzejn/public_html/grezzliadmin/index.php on line 13
+[11-Apr-2016 23:25:36 Etc/GMT] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'localhost' (using password: YES) in /home/grezzejn/public_html/grezzliadmin/dbconfig.php on line 6
+[11-Apr-2016 23:25:36 Etc/GMT] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, boolean given in /home/grezzejn/public_html/grezzliadmin/index.php on line 7
+[11-Apr-2016 23:25:36 Etc/GMT] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, boolean given in /home/grezzejn/public_html/grezzliadmin/index.php on line 8
+[11-Apr-2016 23:25:36 Etc/GMT] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/grezzejn/public_html/grezzliadmin/index.php on line 11
+[11-Apr-2016 23:25:36 Etc/GMT] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/grezzejn/public_html/grezzliadmin/index.php on line 12
+[11-Apr-2016 23:25:36 Etc/GMT] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/grezzejn/public_html/grezzliadmin/index.php on line 13
+[11-Apr-2016 23:25:40 Etc/GMT] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'localhost' (using password: YES) in /home/grezzejn/public_html/grezzliadmin/dbconfig.php on line 6
+[11-Apr-2016 23:25:40 Etc/GMT] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, boolean given in /home/grezzejn/public_html/grezzliadmin/index.php on line 7
+[11-Apr-2016 23:25:40 Etc/GMT] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, boolean given in /home/grezzejn/public_html/grezzliadmin/index.php on line 8
+[11-Apr-2016 23:25:40 Etc/GMT] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/grezzejn/public_html/grezzliadmin/index.php on line 11
+[11-Apr-2016 23:25:40 Etc/GMT] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/grezzejn/public_html/grezzliadmin/index.php on line 12
+[11-Apr-2016 23:25:40 Etc/GMT] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/grezzejn/public_html/grezzliadmin/index.php on line 13
+[11-Apr-2016 23:25:41 Etc/GMT] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'localhost' (using password: YES) in /home/grezzejn/public_html/grezzliadmin/dbconfig.php on line 6
+[11-Apr-2016 23:25:41 Etc/GMT] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, boolean given in /home/grezzejn/public_html/grezzliadmin/index.php on line 7
+[11-Apr-2016 23:25:41 Etc/GMT] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, boolean given in /home/grezzejn/public_html/grezzliadmin/index.php on line 8
+[11-Apr-2016 23:25:41 Etc/GMT] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/grezzejn/public_html/grezzliadmin/index.php on line 11
+[11-Apr-2016 23:25:41 Etc/GMT] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/grezzejn/public_html/grezzliadmin/index.php on line 12
+[11-Apr-2016 23:25:41 Etc/GMT] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/grezzejn/public_html/grezzliadmin/index.php on line 13
+[11-Apr-2016 23:25:42 Etc/GMT] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'localhost' (using password: YES) in /home/grezzejn/public_html/grezzliadmin/dbconfig.php on line 6
+[11-Apr-2016 23:25:42 Etc/GMT] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, boolean given in /home/grezzejn/public_html/grezzliadmin/index.php on line 7
+[11-Apr-2016 23:25:42 Etc/GMT] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, boolean given in /home/grezzejn/public_html/grezzliadmin/index.php on line 8
+[11-Apr-2016 23:25:42 Etc/GMT] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/grezzejn/public_html/grezzliadmin/index.php on line 11
+[11-Apr-2016 23:25:42 Etc/GMT] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/grezzejn/public_html/grezzliadmin/index.php on line 12
+[11-Apr-2016 23:25:42 Etc/GMT] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/grezzejn/public_html/grezzliadmin/index.php on line 13
+[11-Apr-2016 23:25:43 Etc/GMT] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'localhost' (using password: YES) in /home/grezzejn/public_html/grezzliadmin/dbconfig.php on line 6
+[11-Apr-2016 23:25:43 Etc/GMT] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, boolean given in /home/grezzejn/public_html/grezzliadmin/index.php on line 7
+[11-Apr-2016 23:25:43 Etc/GMT] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, boolean given in /home/grezzejn/public_html/grezzliadmin/index.php on line 8
+[11-Apr-2016 23:25:43 Etc/GMT] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/grezzejn/public_html/grezzliadmin/index.php on line 11
+[11-Apr-2016 23:25:43 Etc/GMT] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/grezzejn/public_html/grezzliadmin/index.php on line 12
+[11-Apr-2016 23:25:43 Etc/GMT] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/grezzejn/public_html/grezzliadmin/index.php on line 13

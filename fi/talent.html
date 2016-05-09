@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1"> -->
+      <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+      <meta http-equiv="Cache-control" content="public">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Grezzli</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="../css/agency.css" rel="stylesheet">
+
+    <link href="../css/mobile.css" rel="stylesheet">
+    <!-- Custom Fonts -->
+    <link href="../font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="../css/style.css">
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <style>
+        .thumbnail {
+            border: 0 none;
+            box-shadow: none;
+        }
+    </style>
+
+</head>
+
+<body  id="page-top"  class="index">
+
+    <!-- Navigation -->
+    <nav  id="navbar" class="navbar navbar-default navbar-fixed-top" >
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header page-scroll">
+                <a href="index.html">
+                <img width="180" height="60" class="img-responsive" src="../img/logo.png" alt=""></a>
+            </div>
+
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+
+    <!-- Header -->
+    <header>
+
+    </header>
+
+    <!-- Services Section -->
+    <section id="services">
+        <div  class="container">
+
+            <div class="row">
+
+                <div class="col-md-4">
+
+                    <div style="border:0px" class="row panel panel-default">
+                        <div class="panel-body">
+                            <form name="myForm" action="con.php" role="form" method="post" >
+                                <div class="form-group">
+
+                                    <div class="input-group">
+                                        <input type="text" class="form-control" name="InputFName" id="InputFName" placeholder="Enter First Name" required>
+                                        <span class="input-group-addon"><span class="glyphicon glyphicon-asterisk"></span></span>
+                                    </div> </br>
+                            <div class="input-group">
+                                        <input type="text" class="form-control" name="InputLName" id="InputLName" placeholder="Enter Last  Name" required>
+                                        <span class="input-group-addon"><span class="glyphicon glyphicon-asterisk"></span></span>
+                                    </div>
+                                </div>
+                                </br>
+
+                                <div class="form-group">
+
+                                    <div class="input-group">
+                                        <input type="email" class="form-control" id="InputEmailFirst" name="InputEmail" pattern="[^@\s]+@[^@\s]+\.[^@\s]+" placeholder="Enter Email" required>
+                                        <span class="input-group-addon"><span class="glyphicon glyphicon-asterisk"></span></span>
+                                    </div>
+
+                                </div>
+                                </br>
+                              <div id ="skillbutton" style="display:none;"class="form-group">
+                                    <button type="button" class="btn btn-info btn-block" data-toggle="modal" data-target="#myModal">Click to Choose Skill(s)</button>
+                              </div>
+
+                                <div class="form-group">
+                                    <label for="InputMessage">Choosen Skills</label>
+                                    <div class="input-group">
+                                        <textarea name="InputMessage" placeholder="Select skill(s) by clicking on an image..." id="InputMessage" class="form-control" rows="6" required></textarea>
+                                        <span class="input-group-addon"><span class="glyphicon glyphicon-asterisk"></span></span>
+                                    </div>
+                                </div>
+                                </br>
+                                <input type="submit" name="submit" id="submit" value="Submit" class="btn btn-primary btn-block "></br>
+
+                            </form>
+                        </div>
+                    </div>
+
+                </div>
+                <div id ="tablet">
+                <div class="col-md-1"></div>
+
+                <div class="col-md-2">
+                    <div class="row">
+                      <div class="col-md-9"><p>House</p></div>
+                      <div class="col-md-2"><p><a id="popover" class="btn btn-popover" rel="popover"
+                        data-content="You can do Projects related to House Cleaning, Maintenance, Gardening, Etc. "
+                         title="Choosing This Means:">
+                      <i class="fa fa-2x fa-info-circle"></i></a></p></div></br></br>
+                        <a class="" href="#">
+                            <img class="img-responsive " src="../img/contentphotos/1_House.jpg"  title="House"  alt="House">
+                        </a>
+                    </div>
+                    </br>
+                    </br>
+                    <div class="row">
+                      <div class="col-md-9"><p>Sports & Wellness</p></div>
+                      <div class="col-md-2"><p><a id="popover" class="btn btn-popover" rel="popover" data-content="That You can be a personal Trainer, a Masseuse, or any other sports and wellness related talents" title="Choosing This Means:">
+                      <i class="fa fa-2x fa-info-circle"></i></a></p></div></br></br>
+                        <a class="" href="#">
+                            <img class="img-responsive " src="../img/contentphotos/2_Sportsandwellness.jpg"  title="Sports & Wellness"  alt="Sports & Wellness">
+                        </a>
+                    </div></br></br>
+                </div>
+
+                <div class="col-md-2" style="margin-left:15px">
+                  <div class="row">
+                    <div class="col-md-9"><p>Tutoring</p></div>
+                    <div class="col-md-2"><p><a id="popover" class="btn btn-popover" rel="popover" data-content="That You can Transfer and Teach others what you know best. Music, Maths, Dancing,Etc" title="Choosing This Means:">
+                    <i class="fa fa-2x fa-info-circle"></i></a></p></div></br></br>
+                      <a class="" href="#">
+                          <img class="img-responsive " src="../img/contentphotos/3_tutoring.jpg"  title="Tutoring"  alt="Tutoring">
+                      </a>
+                  </div>
+                  </br>
+                  </br>
+                  <div class="row">
+                    <div class="col-md-9"><p>Events</p></div>
+                    <div class="col-md-2 "><p><a id="popover" class="btn btn-popover" rel="popover" data-content="That you are talented in managing events related Projects. Weddings, Open Events, Decorations, ETC " title="Choosing This Means:">
+                    <i class="fa fa-2x fa-info-circle"></i></a></p></div></br></br></br>
+                      <a class="" href="#">
+                          <img class="img-responsive " src="../img/contentphotos/4_Events.jpg"  title="Events"  alt="Events">
+                      </a>
+                  </div>
+                </div>
+                <div class="col-md-2" style="margin-left:15px">
+                  <div class="row">
+                    <div class="col-md-9"><p>IT</p></div>
+                    <div class="col-md-2 "><p><a id="popover" class="btn btn-popover" rel="popover" data-content="You want to show your IT Talent. Webdesign, Software Engineering, Application Development,ETC" title="Choosing This Means:">
+                    <i class="fa fa-2x fa-info-circle"></i></a></p></div></br></br>
+                      <a class="" href="#">
+                          <img class="img-responsive " src="../img/contentphotos/5_ITsupport.jpg"  title="IT"  alt="IT">
+                      </a>
+                  </div>
+                  </br>
+                  </br>
+                  <div class="row">
+                    <div class="col-md-9"><p>Business & Entrepreneurship</p></div>
+                    <div class="col-md-2"><p><a id="popover" class="btn btn-popover" rel="popover" data-content="That you are Interested in Entrepreneurship and Business related Projects" title="Choosing This Means:">
+                    <i class="fa fa-2x fa-info-circle"></i></a></p></div></br></br>
+                      <a class="" href="#">
+                          <img class="img-responsive "  src="../img/contentphotos/6Entrepreneurship.jpg"  title="Business & Entrepreneurship"  alt="Business & Entrepreneurship">
+                      </a>
+                  </div>
+
+
+                </div>
+
+              <div class="row">
+
+                <div class="col-md-2 col-md-offset-5">
+                  <input type="submit" onClick="setFocus(1)" name="" id="submit" value="Other(s)" class="btn btn-primary btn-block "></br>
+                </div>
+              </div>
+</div><!-- end desktop version -->
+
+
+
+            </div>
+
+        </div>
+
+
+<!--Mobile Version Starts-->
+        <div id="mobile" style="dipslay:none;" class="container">
+
+          <!-- Trigger the modal with a button -->
+
+
+          <!-- Modal -->
+          <div class="modal fade" id="myModal" role="dialog">
+            <div class="modal-dialog">
+
+              <!-- Modal content-->
+              <div class="modal-content">
+                <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal">&times;</button>
+                  <h4 class="modal-title">Choose Skill(s)</h4>
+                </div>
+                <div class="modal-body">
+                  <p>Click on image(s)</p>
+
+
+        <!-- Second Row-->
+        <div class ="row">
+            <div class ="col-md-1 col-sm-1 col-xs-1"></div>
+          <div class ="col-md-5 col-sm-5 col-xs-5">
+
+            <div class="row">
+              <div class="col-md-9 col-sm-9"><p>Events</p></div>
+              <div class="col-md-2 col-sm-2"><p><a id="popover" class="btn btn-popover" rel="popover" data-content="That you are talented in managing events related Projects. Weddings, Open Events, Decorations, ETC " title="Choosing This Means:">
+              <i class="fa fa-2x fa-info-circle"></i></a></p></div></br></br>
+                <a class="" href="#">
+                    <img class="img-responsive " src="../img/contentphotos/4_Events.jpg"  title="Events"  alt="Events">
+                </a>
+            </div>
+          </div>
+
+          <div style="margin-left:5px" class ="col-md-5 col-sm-5 col-xs-5">
+
+            <div class="row">
+              <div class="col-md-9 col-sm-9"><p>IT</p></div>
+              <div class="col-md-2 col-sm-2"><p><a id="popoverleft" class="btn btn-popover" rel="popover" data-content="You want to show your IT Talent. Webdesign, Software Engineering, Application Development,ETC" title="Choosing This Means:">
+              <i class="fa fa-2x fa-info-circle"></i></a></p></div></br></br>
+                <a class="" href="#">
+                    <img class="img-responsive " src="../img/contentphotos/5_ITsupport.jpg"  title="IT"  alt="IT">
+                </a>
+            </div>
+          </div>
+        </div><!--End of Second Row-->
+      </br></br>
+
+        <!-- Third Row-->
+        <div class ="row">
+          <div class ="col-md-1 col-sm-1 col-xs-1"></div>
+          <div class ="col-md-5 col-sm-5 col-xs-5">
+
+            <div class="row">
+              <div class="col-md-9 col-sm-9"><p>Tutoring</p></div>
+              <div class="col-md-2 col-sm-2"><p><a id="popover" class="btn btn-popover" rel="popover" data-content="That You can Transfer and Teach others what you know best. Music, Maths, Dancing,Etc" title="Choosing This Means:">
+              <i class="fa fa-2x fa-info-circle"></i></a></p></div></br></br>
+                <a class="" href="#">
+                    <img class="img-responsive " src="../img/contentphotos/3_tutoring.jpg"  title="Tutoring"  alt="Tutoring">
+                </a>
+            </div>
+
+          </div>
+
+          <div  style="margin-left:5px" class ="col-md-5 col-sm-5 col-xs-5">
+
+            <div class="row">
+              <div class="col-md-9 col-sm-9"><p>House</p></div>
+              <div class="col-md-2 col-sm-2"><p><a id="popoverleft" class="btn btn-popover" rel="popover"
+                data-content="You can do Projects related to House Cleaning, Maintenance, Gardening, Etc. "
+                 title="Choosing This Means:">
+              <i class="fa fa-2x fa-info-circle"></i></a></p></div></br></br>
+                <a class="" href="#">
+                    <img class="img-responsive " src="../img/contentphotos/1_House.jpg"  title="House"  alt="House">
+                </a>
+            </div>
+          </div>
+
+
+        </div><!--End of Third Row-->
+        </br></br>
+        <!-- First Row-->
+        <div class ="row">
+
+        <div class ="col-md-1 col-sm-1 col-xs-1"></div>
+        <div class ="col-md-5 col-sm-5 col-xs-5">
+
+          <div class="row">
+            <div class="col-md-9 col-sm-9"><p>Business & Entrepreneurship</p></div>
+            <div class="col-md-2 col-sm-2"><p><a id="popover" class="btn btn-popover" rel="popover" data-content="That you are Interested in Entrepreneurship and Business related Projects" title="Choosing This Means:">
+            <i class="fa fa-2x fa-info-circle"></i></a></p></div></br></br></br>
+              <a class="" href="#">
+                  <img class="img-responsive "  src="../img/contentphotos/6Entrepreneurship.jpg"  title="Business & Entrepreneurship"  alt="Business & Entrepreneurship">
+              </a>
+          </div>
+
+        </div>
+
+        <div  style="margin-left:5px" class ="col-md-5 col-sm-5 col-xs-5">
+
+          <div class="row">
+            <div class="col-md-9 col-sm-9"><p>Sports & Wellness</p></div>
+            <div class="col-md-2 col-sm-2"><p><a id="popover" class="btn btn-popover" rel="popover" data-content="That You can be a personal Trainer, a Masseuse, or any other sports and wellness related talents" title="Choosing This Means:">
+            <i class="fa fa-2x fa-info-circle"></i></a></p></div></br></br></br>
+              <a class="" href="#">
+                  <img class="img-responsive " src="../img/contentphotos/2_Sportsandwellness.jpg"  title="Sports & Wellness"  alt="Sports & Wellness">
+              </a>
+          </div>
+        </div>
+
+      </div><!-- End of First Row-->
+</br></br>
+      <div class="row">
+
+        <div class="col-md-2 col-md-offset-5">
+          <input type="submit" onClick="setFocus(2)"  id="submit" value="Other(s)" class="btn btn-primary btn-block "></br>
+        </div>
+      </div>
+
+
+        </div><!-- Modal Body -->
+        <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+              </div>
+            </div><!-- Modal  -->
+          </div><!-- Modal  -->
+        </div>  <!-- Mobile  -->
+    </section>
+
+
+    <!-- Clients Aside  -->
+  <!--  <aside class="clients">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 col-sm-6">
+                    <a href="#">
+                        <img src="img/partner_icon.png" class="img-responsive img-centered" alt="">
+                    </a>
+                </div>
+                <div class="col-md-4 col-sm-6">
+                    <a href="#">
+                        <img src="img/partner_icon.png" class="img-responsive img-centered" alt="">
+                    </a>
+                </div>
+                <div class="col-md-4 col-sm-6">
+                    <a href="#">
+                        <img src="img/partner_icon.png" class="img-responsive img-centered" alt="">
+                    </a>
+                </div>
+
+            </div>
+        </div>
+    </aside>-->
+
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <span class="copyright " style="color: #fed136;">Copyright &copy; Grezzli Team 2016</span>
+                </div>
+                <div class="col-md-4">
+                    <ul class="list-inline social-buttons">
+
+                        <li><a  href="https://www.facebook.com/grezzlionline/?fref=ts&__mref=message_bubble" target="_blank"><i class="fa fa-facebook"></i></a>
+                        </li><li></li>
+                        <li><a href="#"><i class="fa fa-twitter"></i></a>
+                        </li>
+                        <li><a href="#"><i class="fa fa-linkedin"></i></a>
+                        </li>
+                      <li><a href="#"><i  style="color:#e52d27" class="fa fa-youtube"></i></a>
+                      </li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <ul class="list-inline quicklinks">
+                        <li><a href="#">Privacy Policy</a>
+                        </li>
+                        <li><a href="#">Terms of Use</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- jQuery -->
+    <script src="../js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="../js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+    <script src="../js/classie.js"></script>
+    <script src="../js/cbpAnimatedHeader.js"></script>
+
+
+
+    <!-- Custom Theme JavaScript -->
+    <script src="../js/agency.js"></script>
+     <!-- Customize JavaScript for form control -->
+    <script type='text/javascript'>
+    var arr = [ ];//hold elements inside text area
+      // find all <img>s inside a <p> and set up onclick
+
+      $('.container img').on('click', function() {
+          // add the text after the clicked element
+          // var message =  document.getElementById('InputMessage').value;
+          // console.log(message[1]);
+          var alt = $(this).attr("alt");
+          if($(this).css('opacity')==0.4){
+            $(this).css('opacity','1.0');
+            // console.log("op");
+            // Find and remove item from an array
+            var i = arr.indexOf(alt);
+            if(i != -1) {
+            	arr.splice(i, 1);
+              document.getElementById('InputMessage').value=arr.join("\n");
+            }
+          }
+        else{
+            $(this).css('opacity','0.4');
+              console.log("op12");
+              arr.push(alt);
+              document.getElementById('InputMessage').value=arr.join("\n");
+        }
+
+          // var alt = $(this).attr("alt");
+          // console.log("image clicked");
+          // console.log(alt);
+          // if(contains(arr, alt)==false){
+          //   jQ_append('InputMessage', alt);
+          //   arr.push(alt);
+          //
+          // }
+      });
+
+
+      //Append text to input element
+      function jQ_append(id_of_input, text){
+            var input_id = '#'+id_of_input;
+            $(input_id).val($(input_id).val() + text + "\n");
+      }
+      //check if the input message field contains duplicate value
+     function contains(a, obj) {
+            var i = a.length;
+            while (i--) {
+               if (a[i] === obj) {
+                   return true;
+               }
+            }
+            return false;
+     }
+  </script>
+  <script>
+// $(document).ready(function(){
+//   // $('#popover').popover();
+//
+//   $('#popover').popover();
+//
+//   $('#popover').on('click', function (e) {
+//       $('#popover').not(this).popover('hide');
+//   });
+// });
+$(document).ready(function(){
+
+    $('.btn-popover').popover({
+      trigger:'hover',
+   animation: false,
+   placement: 'auto right'
+    });
+
+    $('.btn-popover').on('click', function (e) {
+        $('.btn-popover').not(this).popover('hide');
+    });
+
+
+});
+
+</script>
+
+
+
+<script language="JavaScript">
+
+ function setFocus(num){
+   if(num==2){
+     $('#myModal').modal('hide');
+     console.log("modal clicked");
+   }
+     document.myForm.InputMessage.focus();
+
+
+ }
+
+ </script>
+
+</body>
+
+</html>
